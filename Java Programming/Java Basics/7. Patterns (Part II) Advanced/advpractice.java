@@ -1,8 +1,10 @@
 public class advpractice {
     public static void main(String[] args) {
-        // hlwrect(4,5);
+        hlwrect(4,5);
 
         invpattern(4);
+
+        solidrhombus(5);
 
     }
 
@@ -32,5 +34,21 @@ public class advpractice {
             }
             System.out.println();
         }
+    }
+
+    public static void solidrhombus(int n ){
+        for(int i = 1; i<=n;i++){
+            //space-->
+            for(int j = 1 ; j<=n-i;j++){
+                System.out.print(" ");
+            }
+            //star -->
+            for(int st=1;st<=n;st++){
+                // st  varibale for star 
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
     }
 }
