@@ -1,6 +1,8 @@
 public class Subarray {
     public static void main(String[] args) {
-        int numbers [] = {2,4,6,8,10};
+        int numbers [] = {-2,-3,4,-1,-2,1,5,-3};
+
+        // int numbers [] = {2,4,6,8,10};
 
         PrintSubarray(numbers);
     }
@@ -14,18 +16,18 @@ public class Subarray {
             for(int j =i ; j<numbers.length ;j++){
                 int end = j;
 
-                // int currsum=0;
+                int currsum=0;
                 for(int k = start ; k <= end ; k++){
                     System.out.print(numbers[k]+" ");
 
-                    // currsum+=numbers[k];
-                    // if(maxsum<currsum){
-                        // maxsum=currsum;
-                    // }
+                    currsum+=numbers[k];
+                    if(maxsum<currsum){
+                        maxsum=currsum;
+                    }
                     
                 }
 
-                // System.out.print("Current sum :-"+currsum);
+                System.out.print("Current sum : "+currsum);
                 System.out.println();
             }
 
