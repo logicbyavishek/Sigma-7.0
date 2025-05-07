@@ -26,7 +26,4 @@ necessary after updating maxsum.
     
             System.out.println("The maximum sum is: " + maxsum);
         }
-    
-    
-    
 }
