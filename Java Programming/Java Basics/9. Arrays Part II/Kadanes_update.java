@@ -17,7 +17,7 @@ public class Kadanes_update {
                 } else {
                     currsum += numbers[i];
                 }
-    
+
                 if (currsum > maxsum) {
                     maxsum = currsum;
                     start = tempStart;
@@ -27,6 +27,8 @@ public class Kadanes_update {
     
             System.out.println("Maximum sum is: " + maxsum);
             System.out.print("Subarray is: ");
+
+            // print max sub array
             for (int i = start; i <= end; i++) {
                 System.out.print(numbers[i] + " ");
             }
