@@ -11,7 +11,7 @@ Track the maximum sum without forcing currsum to zero in the beginning and only 
 necessary after updating maxsum.
      */
         public static void main(String[] args) {
-            int numbers[] = {-1,-2,-3,-4,-6,-7,-5,-8,-9,-10,-55,50};
+            int numbers[] = {-1,-2,-3,-4,-6,-7,-5,-8,-9,-10,50};
             kadanes_algo(numbers);
         }
     
