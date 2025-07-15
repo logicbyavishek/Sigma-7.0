@@ -1,0 +1,346 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Advance_all_patterns",
+            "request": "launch",
+            "mainClass": "Advance_all_patterns",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Base2d_Array",
+            "request": "launch",
+            "mainClass": "Base2d_Array",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Bill",
+            "request": "launch",
+            "mainClass": "Bill",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Bubble",
+            "request": "launch",
+            "mainClass": "Bubble",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Buy_and_Sell_Stock",
+            "request": "launch",
+            "mainClass": "Buy_and_Sell_Stock",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Counting",
+            "request": "launch",
+            "mainClass": "Counting",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "HolloRectangle",
+            "request": "launch",
+            "mainClass": "HolloRectangle",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Inbuilt",
+            "request": "launch",
+            "mainClass": "Inbuilt",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Insertion",
+            "request": "launch",
+            "mainClass": "Insertion",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "JAVA1",
+            "request": "launch",
+            "mainClass": "JAVA1",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "JAVA2",
+            "request": "launch",
+            "mainClass": "JAVA2",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "JAVA3",
+            "request": "launch",
+            "mainClass": "JAVA3",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "JAVA4",
+            "request": "launch",
+            "mainClass": "JAVA4",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "JAVA5",
+            "request": "launch",
+            "mainClass": "JAVA5",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Java1",
+            "request": "launch",
+            "mainClass": "Java1",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Java2",
+            "request": "launch",
+            "mainClass": "Java2",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Java3",
+            "request": "launch",
+            "mainClass": "Java3",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Java4",
+            "request": "launch",
+            "mainClass": "Java4",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Java5",
+            "request": "launch",
+            "mainClass": "Java5",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "JavaBasics",
+            "request": "launch",
+            "mainClass": "JavaBasics",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Kadanes",
+            "request": "launch",
+            "mainClass": "Kadanes",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Kadanes_update",
+            "request": "launch",
+            "mainClass": "Kadanes_update",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Kadans_fix_issue",
+            "request": "launch",
+            "mainClass": "Kadans_fix_issue",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubArrPrefix",
+            "request": "launch",
+            "mainClass": "MaxSubArrPrefix",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "Pair",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Patter1",
+            "request": "launch",
+            "mainClass": "Patter1",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Pattern_2",
+            "request": "launch",
+            "mainClass": "Pattern_2",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Pattern_3",
+            "request": "launch",
+            "mainClass": "Pattern_3",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Pattern_4",
+            "request": "launch",
+            "mainClass": "Pattern_4",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Practice_array",
+            "request": "launch",
+            "mainClass": "Practice_array",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Selection",
+            "request": "launch",
+            "mainClass": "Selection",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Spiral_Matrix",
+            "request": "launch",
+            "mainClass": "Spiral_Matrix",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "Subarray",
+            "request": "launch",
+            "mainClass": "Subarray",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "TRW",
+            "request": "launch",
+            "mainClass": "TRW",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "TrapRainWaterPractice",
+            "request": "launch",
+            "mainClass": "TrapRainWaterPractice",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "advpractice",
+            "request": "launch",
+            "mainClass": "advpractice",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "hollow",
+            "request": "launch",
+            "mainClass": "hollow",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "java22",
+            "request": "launch",
+            "mainClass": "java22",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "java5",
+            "request": "launch",
+            "mainClass": "java5",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "kadanss",
+            "request": "launch",
+            "mainClass": "kadanss",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "largestNumber",
+            "request": "launch",
+            "mainClass": "largestNumber",
+            "projectName": "Sigma 7.0_ca02aac6"
+        },
+        {
+            "type": "java",
+            "name": "largest_of_3",
+            "request": "launch",
+            "mainClass": "largest_of_3",
+            "projectName": "Sigma 7.0_ca02aac6"
+        }
+    ]
+}
