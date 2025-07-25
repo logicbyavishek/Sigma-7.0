@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class DiagonalSum {
     public static int CalculateDiagonalSum(int matrix[][]) {
         int sum = 0;
@@ -28,6 +30,8 @@ public class DiagonalSum {
                         {5,6,7,8},
                         {9,10,11,12},
                         {13,14,15,16}};
+        System.out.println(Arrays.deepToString(matrix));
+
         int diagonalSum = CalculateDiagonalSum(matrix);
         System.out.println("Diagonal Sum: " + diagonalSum);
     }
