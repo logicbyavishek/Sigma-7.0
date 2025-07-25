@@ -8,6 +8,7 @@ public class sample5 {
     }
     public static void main(String[] args) {
         String str ="Hello,World!";
-        System.out.println(subString(str, 3, 5));
+        // System.out.println(subString(str, 3, 5));
+        System.out.println(str.substring(0,3));
     }
 }
