@@ -73,7 +73,7 @@ Feel free to **explore**, **modify**, and **contribute**.
 I'm learning in public! If you found this helpful or want to collaborate:
 
 * 🔗 GitHub: [logicbyavishek](https://github.com/logicbyavishek)
-* 💬 DM or comment to suggest improvements
+* 💬 DM or comment to suggest improvements Linkedin : [logicbyavishek](https://www.linkedin.com/in/logicbyavishek)
 * 🌟 Hashtags: `#100DaysOfCode` `#Java` `#ApnaCollege` `#DSA` `#SigmaCourse`
 
 ---
