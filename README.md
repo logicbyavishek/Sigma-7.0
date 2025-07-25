@@ -1,3 +1,6 @@
+![Banner](https://raw.githubusercontent.com/logicbyavishek/Sigma-7.0/main/images/Banner.png)
+
+
 # 📈 Sigma 7.0 - Java Programming Exercises
 
 Welcome to the **Java Programming Practice Repository** for the [Apna College Sigma 7.0](https://www.apnacollege.in/) course!
