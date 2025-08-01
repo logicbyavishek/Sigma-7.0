@@ -1,6 +1,8 @@
-// Sample code to get the ith bit of a number
+import java.util.*;
 
-public class sample_getithBit {
+public class sample_Bit_Operation {
+    
+    // Sample code to get the ith bit of a number
     public static int getIthbit(int n , int i){
         int bitmask = 1<<i;
         if((n&bitmask)==0){
@@ -16,6 +18,7 @@ public class sample_getithBit {
         return n|bitmask;
     }
 
+    // sample code block of Clear ith bit 
     public static int ClearithBit(int n , int i){
         int bitmask = ~(1<<i);
         return n&bitmask;
