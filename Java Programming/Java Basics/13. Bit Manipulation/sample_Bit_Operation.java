@@ -42,6 +42,12 @@ public class sample_Bit_Operation {
         }
     }
 
+    // Clear Last **i th BITS** -->
+    public static int clearLastIthBits(int n , int i){
+        int bitmask = ~(0)<<i;
+        return n & bitmask;
+    }
+
     public static void main(String[] args) {
         // int n =5 ;
         // int i =2;
@@ -54,12 +60,13 @@ public class sample_Bit_Operation {
         
         // System.out.println("The set " + i + "th bit of " + n + " is: " + ClearithBit(n, i)); // n = 10 , i =2 , output = 8
         
-        int n = 10;
-        int i = 2;
-        int newBit = 1;
+        // int n = 10;
+        // int i = 2;
+        // int newBit = 1;
         
-        // System.out.println( UpdateIthBit(n, i, newBit)); // n = 10 , i = 2, newBit = 1 ;
-        System.out.println(UpdateIthBIt2(n, i, newBit));
+        // System.out.println( UpdateIthBit(n, i, newBit)); // n = 10 , i = 2, newBit = 1 ; output = 14
+        // System.out.println(UpdateIthBIt2(n, i, newBit));
+        System.out.println(clearLastIthBits(15, 2)); // n = 15 , i =2 , output = 12
 
     }
 }
