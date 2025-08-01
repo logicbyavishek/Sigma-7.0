@@ -33,6 +33,15 @@ public class sample_Bit_Operation {
         return  n | bitmask;
     }
 
+    // UPdate nth bit east approach ---
+    public static int UpdateIthBIt2(int n , int i , int newBit){
+        if(newBit == 0 ){
+            return ClearithBit(n, i);
+        }else{
+            return setIthBit(n, i);
+        }
+    }
+
     public static void main(String[] args) {
         // int n =5 ;
         // int i =2;
@@ -49,7 +58,8 @@ public class sample_Bit_Operation {
         int i = 2;
         int newBit = 1;
         
-        System.out.println( UpdateIthBit(n, i, newBit)); // n = 10 , i = 2, newBit = 1 ;
+        // System.out.println( UpdateIthBit(n, i, newBit)); // n = 10 , i = 2, newBit = 1 ;
+        System.out.println(UpdateIthBIt2(n, i, newBit));
 
     }
 }
