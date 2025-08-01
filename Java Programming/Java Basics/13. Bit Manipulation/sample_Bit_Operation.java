@@ -68,6 +68,20 @@ public class sample_Bit_Operation {
         return count;
     }
 
+    // FAST EXPONENTIATION : normal exponentiation time complexity O(n) convert it by using bit manipulation O(log n)
+    public static int FastExpo(int a , int n){ // a^n , a=actual number , n = power
+        int ans = 1;
+        while(n>0){
+            if((n&1)!=0){ // check LSB least Significant Bit
+                ans = ans * a;
+            }
+            a=a*a;
+            n=n>>1;
+        }
+        return ans;
+    }
+
+
     public static void main(String[] args) {
         // int n =5 ;
         // int i =2;
@@ -90,7 +104,8 @@ public class sample_Bit_Operation {
         // System.out.println(clearRangeOf_ithBits(10, 2, 4)); // n = 10 , i = 2 , j =4 , output= 2 
 
         // Question 3
-        System.out.println(CountSetBit(10)); // n=10 (1010)---> 1 count is 2 , output = 2
+        // System.out.println(CountSetBit(10)); // n=10 (1010)---> 1 count is 2 , output = 2
+        System.out.println(FastExpo(3, 5)); // a = 3 , n = 5 [a^n = 3^5] , output = 243
 
     }
 }
