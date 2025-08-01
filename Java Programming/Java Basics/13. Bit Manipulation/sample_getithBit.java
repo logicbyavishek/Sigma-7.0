@@ -9,10 +9,21 @@ public class sample_getithBit {
             return 1;
         }
     }
+
+    // sample code block of Set ith bit 
+    public static int setIthBit(int n , int i){
+        int bitmask = 1<<i;
+        return n|bitmask;
+    }
+
     public static void main(String[] args) {
-        int n =5 ;
-        int i =2;
-        System.out.println("The " + i + "th bit of " + n + " is: " + getIthbit(n, i));
+        // int n =5 ;
+        // int i =2;
+        // System.out.println("The " + i + "th bit of " + n + " is: " + getIthbit(n, i));
         // Example: For n=5 (binary 101), the 2nd bit is 1 (counting from 0).
+        int n =10;
+        int i =2;
+
+        System.out.println("The set " + i + "th bit of " + n + " is: " + setIthBit(n, i));
     }
 }
