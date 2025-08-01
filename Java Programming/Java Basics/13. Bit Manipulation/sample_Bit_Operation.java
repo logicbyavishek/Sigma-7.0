@@ -48,6 +48,14 @@ public class sample_Bit_Operation {
         return n & bitmask;
     }
 
+    // Clear Range of Bits ===>>
+    public static int clearRangeOf_ithBits(int n , int i , int j){
+        int a = ~(0)<<(j+1);
+        int b = (1<<i)-1;
+        int bitmask = a|b;
+        return n & bitmask;
+    }
+
     public static void main(String[] args) {
         // int n =5 ;
         // int i =2;
@@ -66,7 +74,8 @@ public class sample_Bit_Operation {
         
         // System.out.println( UpdateIthBit(n, i, newBit)); // n = 10 , i = 2, newBit = 1 ; output = 14
         // System.out.println(UpdateIthBIt2(n, i, newBit));
-        System.out.println(clearLastIthBits(15, 2)); // n = 15 , i =2 , output = 12
+        // System.out.println(clearLastIthBits(15, 2)); // n = 15 , i =2 , output = 12
+        System.out.println(clearRangeOf_ithBits(10, 2, 4)); // n = 10 , i = 2 , j =4 , output= 2 
 
     }
 }
