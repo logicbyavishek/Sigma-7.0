@@ -56,6 +56,18 @@ public class sample_Bit_Operation {
         return n & bitmask;
     }
 
+    // #Question 3 : Count Set Bits in a Number 
+    public static int CountSetBit(int n){
+        int count = 0 ;
+        while(n>0){
+            if((n&1)!=0){
+                count ++;
+            }
+            n=n>>1;
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         // int n =5 ;
         // int i =2;
@@ -75,7 +87,10 @@ public class sample_Bit_Operation {
         // System.out.println( UpdateIthBit(n, i, newBit)); // n = 10 , i = 2, newBit = 1 ; output = 14
         // System.out.println(UpdateIthBIt2(n, i, newBit));
         // System.out.println(clearLastIthBits(15, 2)); // n = 15 , i =2 , output = 12
-        System.out.println(clearRangeOf_ithBits(10, 2, 4)); // n = 10 , i = 2 , j =4 , output= 2 
+        // System.out.println(clearRangeOf_ithBits(10, 2, 4)); // n = 10 , i = 2 , j =4 , output= 2 
+
+        // Question 3
+        System.out.println(CountSetBit(10)); // n=10 (1010)---> 1 count is 2 , output = 2
 
     }
 }
