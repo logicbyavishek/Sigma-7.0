@@ -1,3 +1,6 @@
+// Question 1.
+//  Check if a number is Even or Odd
+
 import java.util.*;
 
 public class sample_EvenOdd {
