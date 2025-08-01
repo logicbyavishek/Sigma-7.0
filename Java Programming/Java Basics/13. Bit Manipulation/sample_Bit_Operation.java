@@ -24,17 +24,32 @@ public class sample_Bit_Operation {
         return n&bitmask;
     }
 
+    // Update ith bit 
+    public static int UpdateIthBit(int n , int i,int newBit){
+        n = ClearithBit(n, i); // for this we clear n first
+        
+        int bitmask = (newBit<<i);
+        
+        return  n | bitmask;
+    }
+
     public static void main(String[] args) {
         // int n =5 ;
         // int i =2;
         // System.out.println("The " + i + "th bit of " + n + " is: " + getIthbit(n, i));
         // Example: For n=5 (binary 101), the 2nd bit is 1 (counting from 0).
-        int n =10;
-        int i =1;
+        // int n =10;
+        // int i =1;
 
         // System.out.println("The set " + i + "th bit of " + n + " is: " + setIthBit(n, i)); n =10 , i = 2 output = 14
         
-        System.out.println("The set " + i + "th bit of " + n + " is: " + ClearithBit(n, i)); // n = 10 , i =2 , output = 8
+        // System.out.println("The set " + i + "th bit of " + n + " is: " + ClearithBit(n, i)); // n = 10 , i =2 , output = 8
+        
+        int n = 10;
+        int i = 2;
+        int newBit = 1;
+        
+        System.out.println( UpdateIthBit(n, i, newBit)); // n = 10 , i = 2, newBit = 1 ;
 
     }
 }
