@@ -24,7 +24,7 @@ This repo includes well-organized Java exercises from beginner to intermediate l
 | 10. | `Sorting Algorithm/`           | Implementations: Bubble, Selection, Insertion, Counting, Java sort.       |
 | 11. | `2D Array/`                    | Matrix operations, diagonal sum, spiral print, transpose.                 |
 | 12. | `Strings/`                     | String manipulation, immutability, internals, comparison.                 |
-| 13. | `Bit Manipulation/`            | Binary Number System , Bitwise Operator `&`, `|`, `^`, `~`, `<<`, `>>`    |
+| 13. | `Bit Manipulation/`            | Binary Number System , Bitwise Operators , Operations ,Fast Exponentiation|
 ---
 
 ## ⚙️ How to Run
