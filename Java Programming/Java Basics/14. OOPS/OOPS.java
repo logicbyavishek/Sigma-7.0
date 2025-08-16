@@ -9,6 +9,11 @@ public class OOPS {
         System.out.println(p1.color);
         p1.tip=3;
         System.out.println(p1.tip);
+
+        Bankaccount bank = new Bankaccount();
+        bank.username = "avishekd633";
+        bank.setpassword("abcdef234");
+        System.out.println(bank.username);
     }
 }
 
@@ -21,5 +26,15 @@ class Pen{
     }
     void setTip(int NewTip){
         tip=NewTip;
+    }
+}
+
+//Access Modifiers/Specifiers
+
+class Bankaccount{
+    public String username;
+    private String password;
+    public void setpassword(String pwd){
+        password=pwd;
     }
 }
