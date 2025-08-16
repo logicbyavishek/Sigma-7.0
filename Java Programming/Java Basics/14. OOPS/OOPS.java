@@ -14,12 +14,14 @@ public class OOPS {
         // bank.username = "avishekd633";
         // bank.setpassword("abcdef234");
         // System.out.println(bank.username);
-        Pen p1 = new Pen();
-        p1.setcolor("Blue");
-        System.out.println(p1.getcolor());
-        p1.settip(10);
-        System.out.println(p1.gettip());
+        // Pen p1 = new Pen();
+        // p1.setcolor("Blue");
+        // System.out.println(p1.getcolor());
+        // p1.settip(10);
+        // System.out.println(p1.gettip());
         
+        Student s1 = new Student();
+
     }
 }
 
@@ -62,5 +64,14 @@ class Pen{
     }
     void settip(int tip){
         this.tip = tip;
+    }
+}
+
+class Student{
+    String name;
+    int rollno;
+
+    Student(){ // create a constructor if we are not crate then java automatically create a default constructor by it's self
+        System.out.println("Constructor is called ....");
     }
 }
