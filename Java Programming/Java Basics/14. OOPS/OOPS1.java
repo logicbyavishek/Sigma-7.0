@@ -27,11 +27,23 @@ class Avishek{
     String password;
     int marks[];
 
+    //shallow copy constructor -->
+    // Avishek(Avishek s1){
+    //     marks = new int[3];
+    //     this.name=s1.name;
+    //     this.rollno=s1.rollno;
+    //     this.marks = s1.marks;
+    // }
+
+    // Deep copy constructor -->
     Avishek(Avishek s1){
         marks = new int[3];
         this.name=s1.name;
         this.rollno=s1.rollno;
-        this.marks = s1.marks;
+        for(int i = 0 ; i<3 ;i++){
+            this.marks[i]=s1.marks[i];
+        }
+
     }
     Avishek(){
         marks = new int[3];
