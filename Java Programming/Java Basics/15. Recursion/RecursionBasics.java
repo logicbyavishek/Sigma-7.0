@@ -17,9 +17,21 @@ public class RecursionBasics {
         System.out.print(n +" ");
     }
 
+    public static void fact(int n , int mul){
+        // int mul = 1;
+        if(n==1){
+            mul = mul*n;
+            System.out.println(mul);
+            return;
+        }
+        mul = mul * n;
+        fact(n-1,mul);
+    }
+
     public static void main(String[] args) {
-        int n = 10;
+        int n = 5;
         // printDec(n);
-        printInc(n);
+        // printInc(n);
+        fact(n , 1);
     }
 }
