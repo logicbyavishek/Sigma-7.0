@@ -26,6 +26,7 @@ This repo includes well-organized Java exercises from beginner to intermediate l
 | 12. | `Strings/`                     | String manipulation, immutability, internals, comparison.                 |
 | 13. | `Bit Manipulation/`            | Binary Number System , Bitwise Operators , Operations ,Fast Exponentiation|
 | 14. | `OOPs/`                        |                                                                           |
+| 15. | `Recursion`                    |                                                                           |
 ---
 
 ## ⚙️ How to Run
