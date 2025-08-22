@@ -25,8 +25,8 @@ This repo includes well-organized Java exercises from beginner to intermediate l
 | 11. | `2D Array/`                    | Matrix operations, diagonal sum, spiral print, transpose.                 |
 | 12. | `Strings/`                     | String manipulation, immutability, internals, comparison.                 |
 | 13. | `Bit Manipulation/`            | Binary Number System , Bitwise Operators , Operations ,Fast Exponentiation|
-| 14. | `OOPs/`                        |                                                                           |
-| 15. | `Recursion`                    |                                                                           |
+| 14. | `OOPs/`                        | Encapsulation , Constructor , Inheritance , Polymorphism , Abstraction    |
+| 15. | `Recursion/`                   | Recursion ,                                                               |
 ---
 
 ## ⚙️ How to Run
